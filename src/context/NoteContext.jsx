@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import RNFS from 'react-native-fs';
-import { PermissionsAndroid } from 'react-native';
+
 
 export const NoteContext = createContext();
 export const NoteProvider = ({ children }) => {
